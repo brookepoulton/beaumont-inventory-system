@@ -19,13 +19,13 @@ Tables included:
 - **suppliers** – supplier information  
 - **users** – user login info and roles (admin or regular user)  
 
-You can import the database using the included `495f4bpoulton.sql` file or manually create the tables.
+You can import the database using the included `495f4bpoulton.sql` file
 
 ## Setup / How to Run
 
 1. Install a local server with PHP and MySQL (e.g., XAMPP, MAMP, WAMP).  
 2. Create a MySQL database named `495f4bpoulton`.  
-3. Import `495f4bpoulton.sql` **or** manually create the tables above.  
+3. Import `495f4bpoulton.sql` 
 4. Rename connect_example.php to connect.php. Open connect.php and replace the placeholder values (your_username and your_password) with your own MySQL credentials. 
 5. Open `index.php` in a browser to use the system.
 
