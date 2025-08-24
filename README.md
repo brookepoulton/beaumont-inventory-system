@@ -31,7 +31,15 @@ You can import the database using the included `495f4bpoulton.sql` file
 
 ## Database Connection
 
-- `connect.php` connects to the MySQL database.  
+- `connect.php` connects to the MySQL database.
+
+### Creating a Test Admin User
+
+1. Open `create_admin.php`  
+2. Edit the file to set a username and password for the admin account.  
+3. Running the file will insert the admin account into your local database.  
+4. After creation, you can delete or rename `create_admin.php` for security.
+
 
 ## Notes
 
