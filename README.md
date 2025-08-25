@@ -1,11 +1,11 @@
 # beaumont-inventory-system
 
 Inventory management system for Beaumont Jewelry Boutique.  
-Backend built with PHP and MySQL.
+Built with PHP and MySQL.
 
 ## Technologies Used
-- PHP (backend logic)
-- MySQL (database)
+- PHP 
+- MySQL 
 
 ## Database
 
@@ -27,7 +27,7 @@ You can import the database using the included `495f4bpoulton.sql` file
 2. Create a MySQL database named `495f4bpoulton`.  
 3. Import `495f4bpoulton.sql` 
 4. Rename connect_example.php to connect.php. Open connect.php and replace the placeholder values (your_username and your_password) with your own MySQL credentials. 
-5. Open `index.php` in a browser to use the system.
+5. Open `login.php` in a browser to use the system. (see creating a test admin user for intructions on how to create a login)
 
 ## Database Connection
 
@@ -37,7 +37,7 @@ You can import the database using the included `495f4bpoulton.sql` file
 
 1. Open `create_admin.php`  
 2. Edit the file to set a username and password for the admin account.  
-3. Running the file will insert the admin account into your local database.  
+3. Running the file in your browser will insert the admin account into your local database.  
 4. After creation, you can delete or rename `create_admin.php` for security.
 
 
